@@ -1,0 +1,26 @@
+{
+  "userAgent": "job_seeker_ro_spider",
+  "requestTimeoutSec": 10,
+  "pageDelaySec": 1.0,
+  "retry": {
+    "maxAttempts": 5,
+    "baseDelaySec": 2.0,
+    "maxDelaySec": 60.0,
+    "retryStatus": [429, 500, 502, 503, 504]
+  },
+  "staleJobDeletion": false,
+  "manageCompany": true,
+  "defaultLocation": ["Sebes"],
+  "defaultWorkmode": "on-site",
+  "ownJobUrlPrefix": "https://kronospan-candidate.talent-soft.com/job/",
+  "sources": {
+    "sitemap": "",
+    "listing": "https://kronospan-candidate.talent-soft.com/pages/offre/listeoffre.aspx?lcid=1048&facet_Entity=473",
+    "jobArchive": "https://kronospan-candidate.talent-soft.com/job/"
+  },
+  "selectors": {
+    "jobArticle": ["li.ts-offer-list-item", "[class*='job']", ".vacancy, .position, .listing-item"],
+    "jobTitle": [".ts-offer-list-item__title-link", "h1, h2, h3, h4", "[itemprop='title'], [aria-label]", "a"],
+    "jobMeta": ["", "p, .meta, [class*='deadline']"]
+  }
+}

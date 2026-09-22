@@ -1,0 +1,17 @@
+{
+  "id": "11358544",
+  "company": "KRONOSPAN SEBES SA",
+  "brand": "Kronospan",
+  "status": "activ",
+  "location": [
+    "Sebes"
+  ],
+  "website": [
+    "https://kronospan.com"
+  ],
+  "career": [
+    "https://kronospan-candidate.talent-soft.com/pages/offre/listeoffre.aspx?lcid=1048&facet_Entity=473"
+  ],
+  "scraperFile": "https://github.com/TheTatu13/kronospan-sebes-python-scraper/actions/workflows/scrape.yml",
+  "ownJobUrlPrefix": "https://kronospan-candidate.talent-soft.com/job/"
+}
