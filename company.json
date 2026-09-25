@@ -1,5 +1,5 @@
 {
-  "validatedAt": "2026-09-24T11:34:28.700058+00:00",
+  "validatedAt": "2026-09-25T11:40:53.694421+00:00",
   "source": "ANAF",
   "brand": "Kronospan",
   "anaf": {
@@ -56,7 +56,25 @@
     "onrcStatus": 0,
     "onrcStatusLabel": "Funcțiune"
   },
-  "peviitor": null,
+  "peviitor": {
+    "id": "11358544",
+    "company": "KRONOSPAN SEBES SA",
+    "brand": "Kronospan",
+    "status": "activ",
+    "location": [
+      "JUD. ALBA, MUN. SEBEŞ, STR. MIHAIL KOGALNICEANU, NR.59"
+    ],
+    "website": [
+      "https://kronospan.com"
+    ],
+    "career": [
+      "https://kronospan-candidate.talent-soft.com/pages/offre/listeoffre.aspx?lcid=1048&facet_Entity=473"
+    ],
+    "lastScraped": "2026-09-24",
+    "scraperFile": "https://github.com/TheTatu13/kronospan-sebes-python-scraper/actions/workflows/scrape.yml",
+    "_version_": 1877212837166710784,
+    "_root_": "11358544"
+  },
   "summary": {
     "company": "KRONOSPAN SEBES SA",
     "cif": "11358544",
