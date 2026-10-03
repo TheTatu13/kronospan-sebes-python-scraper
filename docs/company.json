@@ -12,6 +12,6 @@
   "career": [
     "https://kronospan-candidate.talent-soft.com/pages/offre/listeoffre.aspx?lcid=1048&facet_Entity=473"
   ],
-  "scraperFile": "https://github.com/TheTatu13/kronospan-sebes-python-scraper/actions/workflows/scrape.yml",
+  "scraperFile": "https://github.com/peviitor-scrapers/kronospan-sebes-python-scraper/actions/workflows/scrape.yml",
   "ownJobUrlPrefix": "https://kronospan-candidate.talent-soft.com/job/"
 }
